@@ -28,8 +28,8 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "bin" : {
-    "lcm" : "./bin/lcm.js"
+  "bin": {
+    "lcm": "./bin/lcm.js"
   },
   "main": "./lib",
   "dependencies": {
@@ -37,7 +37,7 @@
     "commander": "2.x.x",
     "co-prompt": "1.x.x",
     "express": "4.x.x",
-    "actionrouter": "git+ssh://git@github.com:OculusVR/node-actionrouter.git#master",
+    "actionrouter": "git+https://github.com/metacommunications/node-actionrouter.git#master",
     "bootable": "0.2.x",
     "bootable-environment": "0.2.x",
     "parent-require": "1.x.x",
@@ -45,7 +45,8 @@
     "scripts": "0.1.x",
     "utils-flatten": "1.x.x",
     "syntax-error": "0.0.1",
-    "debug": "0.7.x"
+    "debug": "0.7.x",
+    "node-mime": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "1.x.x",
